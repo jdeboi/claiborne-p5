@@ -1,0 +1,15 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+canvas {
+    display: block;
+}
+
+#togglePast {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    z-index: 20;
+}

@@ -22,7 +22,7 @@ let destinations = [];
 let pastOn = true;
 
 function setup() {
-  canvas = createCanvas(800, 700);
+  canvas = createCanvas(windowWidth, windowHeight);
 
   // Create a tile map and overlay the canvas on top.
   myMap = mappa.tileMap(options);
@@ -100,6 +100,11 @@ function keyTyped() {
     pastOn = !pastOn;
     drawImage();
   }
+}
+
+function togglePast() {
+  pastOn = !pastOn;
+  drawImage();
 }
 
 function getImageSize(img, zoomDefault) {
