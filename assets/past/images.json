@@ -1,0 +1,22 @@
+[
+    {
+        "id": 0,
+        "title": "Espanade and Claiborne",
+        "year": 1960,
+        "description": "some details about this spot",
+        "coord": {
+            "lat": 29.961069496635492, 
+            "lng": -90.08419990539552
+        }
+    },
+    {
+        "id": 1,
+        "title": "Espanade2 and Claiborne",
+        "year": 1950,
+        "description": "some details about this spot",
+        "coord": {
+            "lat": 29.966795105530466, 
+            "lng": -90.07583141326906
+        }
+    }
+]
