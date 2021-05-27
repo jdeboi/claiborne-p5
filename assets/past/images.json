@@ -1,22 +1,79 @@
 [
     {
         "id": 0,
-        "title": "Espanade and Claiborne",
-        "year": 1960,
-        "description": "some details about this spot",
+        "title": "Smoky's Mountain Barbeque",
+        "year": 1953,
+        "path": "701_S_Claiborne_1953.jpg",
+        "description": "701 S Claiborne",
         "coord": {
-            "lat": 29.961069496635492, 
-            "lng": -90.08419990539552
+            "lat": 29.952590008887498,
+            "lng": -90.08390496092437
         }
     },
     {
         "id": 1,
-        "title": "Espanade2 and Claiborne",
-        "year": 1950,
+        "title": "1408 N Claiborne",
+        "year": 1953,
+        "path": "1408 N.Claiborne_1953_inside.png",
         "description": "some details about this spot",
-        "coord": {
-            "lat": 29.966795105530466, 
-            "lng": -90.07583141326906
+        "coord": { 
+            "lat": 29.969489401157603,
+            "lng": -90.06806926899316
+        }
+    },
+    {
+        "id": 2,
+        "title": "1480 N Claiborne",
+        "year": 1953,
+        "path": "1480 N.Claiborne_1953_inside.png",
+        "description": "some details about this spot",
+        "coord": {  
+            "lat": 29.970718258008283,
+            "lng": -90.06682899992836
+        }
+    },
+    {
+        "id": 3,
+        "title": "1408 N Claiborne",
+        "year": 1967,
+        "path": "1408 N.Claiborne_1967.png",
+        "description": "some details about this spot",
+        "coord": { 
+            "lat": 29.969489401157603,
+            "lng": -90.06806926899316
+        }
+    },
+    {
+        "id": 4,
+        "title": "Dumaine at Claiborne",
+        "year": 1952,
+        "path": "Dumaine at Claiborne_1952.png",
+        "description": "some details about this spot",
+        "coord": { 
+            "lat":  29.96566211082031,
+            "lng": -90.07208613153614
+        }
+    },
+    {
+        "id": 4,
+        "title": "Orleans at Claiborne",
+        "year": 1947,
+        "path": "Orleans at Claiborne_1947.jpeg",
+        "description": "some details about this spot",
+        "coord": {  
+            "lat":  29.964360845894124,
+            "lng": -90.07314829491824
+        }
+    },
+    {
+        "id": 5,
+        "title": "Ursulines at Claiborne",
+        "year": 1947,
+        "path": "ursuline/Ursulines at N.Claiborne_1947_3.jpg",
+        "description": "some details about this spot",
+        "coord": { 
+            "lat":  29.967533434976545,
+            "lng": -90.07058177607975
         }
     }
 ]

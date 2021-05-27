@@ -19,17 +19,20 @@ class Destination {
         rect(this.x, this.y, 10);
 
         if (this.showImage) {
-            image(this.img, this.x, this.y, 200, 100);
+            const ratio = 400/this.img.width;
+            image(this.img, this.x, this.y, 400, this.img.height*ratio);
         }
         pop();
     }
 
     updateCoords() {
         const { x, y } = myMap.latLngToPixel(this.coord.lat, this.coord.lng);
-        this.x = x;
-        this.y = y;
+        if (x  && y) {
+            this.x = x;
+            this.y = y;
+        }
     }
-    
+
     update(callback) {
        
         if (this.mouseOver(this.x, this.y)) {
